@@ -16,8 +16,6 @@ print(sum)
 # Part 2
 # Go through one first
 occurrences_one = {}
-
-# Count occurrences in 'one'
 for i in one:
     if i in occurrences_one:
         occurrences_one[i] += 1
